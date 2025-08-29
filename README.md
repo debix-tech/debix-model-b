@@ -1,7 +1,7 @@
 # DEBIX Model B Industrial Single Board Computer
 
 <p align="center">
-<img  width=70% height=auto src="./DEBIX_Model_B_1.png" alt="DEBIX Model B(1)">
+<img  width=70% height=auto src="./Media_Assets/DEBIX_Model_B_1.png" alt="DEBIX Model B(1)">
 </p>
 
 ## Overview
@@ -25,7 +25,7 @@ extreme temperature conditions.
   Support Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 and Windows10 IoT Enterprise operating systems.
 
 <p align="center">
-<img  width=60% height=auto src="./DEBIX_Model_B_2.png" alt="DEBIX Model B(2)">
+<img  width=60% height=auto src="./Media_Assets/DEBIX_Model_B_2.png" alt="DEBIX Model B(2)">
 </p>
 
 ## Specification
@@ -62,12 +62,12 @@ extreme temperature conditions.
 | DEBIX Model B Lite | NXP i.MX 8M Plus Quad Lite | N/A | N/A | N/A | N/A |
 
 ## Certificates:
-<img src="./Certificates.png" alt="Certificates" width=70% height=auto>
+<img src="./Media_Assets/Certificates.png" alt="Certificates" width=70% height=auto>
 
 ## I/O Interfaces:
 <p align="center">
-<img src="./Interface_1.png" alt="Interface(1)" width=90% height=auto>
-<img src="./Interface_2.png" alt="Interface(2)" width=90% height=auto>
+<img src="./Media_Assets/Interface_1.png" alt="Interface(1)" width=90% height=auto>
+<img src="./Media_Assets/Interface_2.png" alt="Interface(2)" width=90% height=auto>
 </p>
 
 ## Ordering Codes
@@ -122,7 +122,7 @@ professional.
 
 ## Contact Us
 - **Headquarters**: DEBIX Technology Inc., 8345 Gold River Ct., Las Vegas, NV 89113, USA  
-- **Factory**: 5-6/F., East Zone, Shunheda A2 Building, Liqxiandong Industrial Park, XiLi, Nanshan Dist., Shenzhen, China  <img src="../../../Discord_QRcode.png" alt="Discord(QRcode)" width=15% height=auto align="right">
+- **Factory**: 5-6/F., East Zone, Shunheda A2 Building, Liqxiandong Industrial Park, XiLi, Nanshan Dist., Shenzhen, China  <img src="./Media_Assets/Discord_QRcode.png" alt="Discord(QRcode)" width=15% height=auto align="right">
 - **Email**: info@debix.io  
 - **Website**: [www.debix.io](https://www.debix.io)  
 - **Community**: [Discord](https://discord.com/invite/adaHHaDkH2)
