@@ -22,7 +22,7 @@ extreme temperature conditions.
 - **Advanced Multimedia**  
   Multimedia capabilities are equally impressive, featuring1080p60 video encode and decode (including H.265 and H.264), 3D/2D graphic acceleration, and advanced audio and voice functionalities.
 - **Software Compatibility**
-  Support Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 and Windows10 IoT Enterprise operating systems.
+  Support Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 operating systems.
 
 <p align="center">
 <img  width=60% height=auto src="./Media_Assets/DEBIX_Model_B_2.png" alt="DEBIX Model B(2)">
@@ -34,7 +34,7 @@ extreme temperature conditions.
 | CPU             | NXP i.MX 8M Plus (default), 4 x ARM Cortex-A53, comes with an integrated neural processing unit (NPU) that delivers up to 2.3 TOPS. Industrial grade CPU runs at 1.6GHz.<br>(i.MX 8M Plus series CPU optional) |
 | Memory          | 4GB LPDDR4 (1GB/2GB optional)                                         |
 | Storage         | 16GB eMMC (8GB/32GB/64GB/128GB/256GB optional), support Micro SD card |
-| OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12, Win10 IoT Enterprise (also supports OpenWRT and FreeRTOS)<br>*Note: 4GB RAM required for Win10 IoT Enterprise*                  |
+| OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 (also supports OpenWRT and FreeRTOS)  |
 |**I/O Interface**|                                                                      
 | Gigabit Ethernet| 1 x Gigabit Ethernet, supports TSN and POE power supply (need POE power device module)<br>1 x Gigabit Ethernet via 12pin header (without network transformer)              |
 | WiFi & BT       | 2.4GHz & 5GHz Wi-Fi5, Bluetooth 5.0                                     |
