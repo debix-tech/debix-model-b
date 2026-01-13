@@ -37,7 +37,7 @@ extreme temperature conditions.
 | OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 (also supports OpenWRT and FreeRTOS)  |
 |**I/O Interface**|                                                                      
 | Gigabit Ethernet| 1 x Gigabit Ethernet, supports TSN and POE power supply (need POE power device module)<br>1 x Gigabit Ethernet via 12pin header (without network transformer)              |
-| WiFi & BT       | 2.4GHz & 5GHz Wi-Fi5, Bluetooth 5.0                                     |
+| WiFi & BT       | 2.4GHz & 5GHz Wi-Fi5, Bluetooth 5.0, external Wi-Fi SMA antenna connector (IPEX-4)    |
 | USB             | 4 x USB 3.0 Host, 1 x USB 2.0 OTG                                       |
 | Audio           | 1 x Headphone and Mic combo port                                        |
 | HDMI           | 1 x HDMI OUT                                                            |
