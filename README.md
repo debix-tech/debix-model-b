@@ -30,14 +30,14 @@ extreme temperature conditions.
 
 ## Specification
 | System          |                                                                         |
-|-----------------|-------------------------------------------------------------------------|
+|-----------------|--------------------------------------------|
 | CPU             | NXP i.MX 8M Plus (default), 4 x ARM Cortex-A53, comes with an integrated neural processing unit (NPU) that delivers up to 2.3 TOPS. Industrial grade CPU runs at 1.6GHz.<br>(i.MX 8M Plus series CPU optional) |
 | Memory          | 4GB LPDDR4 (1GB/2GB optional)                                         |
 | Storage         | 16GB eMMC (8GB/32GB/64GB/128GB/256GB optional), support Micro SD card |
 | OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 (also supports OpenWRT and FreeRTOS)  |
 |**I/O Interface**|                                                                      
 | Gigabit Ethernet| 1 x Gigabit Ethernet, supports TSN and POE power supply (need POE power device module)<br>1 x Gigabit Ethernet via 12pin header (without network transformer)              |
-| WiFi & BT       | 2.4GHz & 5GHz Wi-Fi5, Bluetooth 5.0, external Wi-Fi SMA antenna connector (IPEX-4)    |
+| WiFi & BT       | 2.4GHz & 5GHz Wi-Fi5, Bluetooth 5.0, IPEX-4 connector (external Wi-Fi&BT antenna included)    |
 | USB             | 4 x USB 3.0 Host, 1 x USB 2.0 OTG                                       |
 | Audio           | 1 x Headphone and Mic combo port                                        |
 | HDMI           | 1 x HDMI OUT                                                            |
