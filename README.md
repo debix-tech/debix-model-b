@@ -20,7 +20,7 @@ extreme temperature conditions.
 - **Powerful Connectivity**  
   A full suite of connectivity options, including Gigabit network, 2.4GHz & 5GHz Wi-Fi, Bluetooth 5.0, high-speed USB 3.0, and PCIe support.
 - **Advanced Multimedia**  
-  Multimedia capabilities are equally impressive, featuring1080p60 video encode and decode (including H.265 and H.264), 3D/2D graphic acceleration, and advanced audio and voice functionalities.
+  Multimedia capabilities are equally impressive, featuring 1080p60 video encode and decode (including H.265 and H.264), 3D/2D graphic acceleration, and advanced audio and voice functionalities.
 - **Software Compatibility**
   Support Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 operating systems.
 
@@ -31,21 +31,26 @@ extreme temperature conditions.
 ## Specification
 | System          |                                                                         |
 |-----------------|--------------------------------------------|
-| CPU             | NXP i.MX 8M Plus (default), 4 x ARM Cortex-A53, comes with an integrated neural processing unit (NPU) that delivers up to 2.3 TOPS. Industrial grade CPU runs at 1.6GHz.<br>(i.MX 8M Plus series CPU optional) |
-| Memory          | 4GB LPDDR4 (1GB/2GB optional)                                         |
-| Storage         | 16GB eMMC (8GB/32GB/64GB/128GB/256GB optional), support Micro SD card |
+| CPU             | NXP i.MX 8M Plus (default), 4 x ARM Cortex-A53。 Industrial grade runs at 1.6GHz. (i.MX 8M Plus series CPU optional) |
+| MCU             | 1 x Cortex-M7 real-time core (up to 800MHz)                              |
+| GPU             | GC7000UL (3D), GC520L (2D), OpenGL, OpenCL, Vulkan                |
+| NPU             | Integrated NPU up to 2.3 TOPS                                             |
+| Security        | Arm® TrustZone®, DRM Ciphers, Secure Clock, eFuse Key Storage, Random Number Generator, 32KB secure RAM |
+| Watchdog        | Hardware Watchdog                                                         |
+| Memory          | 4GB LPDDR4 (1GB/2GB optional)                                              |
+| Storage         | 16GB eMMC (8GB/32GB/64GB/128GB/256GB optional), supports Micro SD card    |
 | OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12 (also supports OpenWRT and FreeRTOS)  |
-|**I/O Interface**|                                                                      
-| Gigabit Ethernet| 1 x Gigabit Ethernet, supports TSN and POE power supply (need POE power device module)<br>1 x Gigabit Ethernet via 12pin header (without network transformer)              |
+|**I/O Interface**|                                                                                      |
+| Gigabit Ethernet| 1 x Gigabit Ethernet port (Ethernet1) — supports TSN and PoE (requires POE module)<br>1 x Gigabit Ethernet via 12-pin header (Ethernet2, without network transformer) |
 | WiFi & BT       | 2.4GHz & 5GHz Wi-Fi5, Bluetooth 5.0, IPEX-4 connector (external Wi-Fi&BT antenna included)    |
 | USB             | 4 x USB 3.0 Host, 1 x USB 2.0 OTG                                       |
 | Audio           | 1 x Headphone and Mic combo port                                        |
-| HDMI           | 1 x HDMI OUT                                                            |
+| HDMI           | 1 x HDMI OUT, up to 4kp30                                              |
 |**Expansion**    |
 | 40-Pin Dual-Row Header | (1) 3 x UART, 2 x I2C, 2 x SPI, 2 x CAN, 6 x GPIO for default, can be reused as I2S, PWM, SPDIF and GPIO through software configuration<br>(2) 5V power supply, system reset, ON/OFF |
-| LVDS            | 1 x LVDS, single/dual channel 8bit                                      |
-| MIPI CSI        | 1 x MIPI CSI (4-lane)                                                   |
-| MIPI DSI        | 1 x MIPI DSI (4-lane)                                                   |
+| LVDS            | 1 x LVDS, single \& dual channel 8bit, up to 1080p60                        |
+| MIPI CSI        | 1 x MIPI CSI (4-lane), up to 12MP@30fps or 4kp45                         |
+| MIPI DSI        | 1 x MIPI DSI (4-lane), up to WQHD (2560x1440)                            |
 | PCIe            | 1 x PCIe Gen3 (1-lane)                                                  |
 |**Power Supply**|
 | Power Supply    | DC 5V/3A via Type-C                                                     |
@@ -53,7 +58,7 @@ extreme temperature conditions.
 | Size            | 85.0mm × 56.0mm (±0.5mm)                                                |
 | Operating Temp. | -40°C to 85°C                                                           |
 | Net Weight      | 46g (±0.5g)                                                             |
-| Net Weight      | 72g (±0.5g)                                                             |
+| Gross Weight    | 72g (±0.5g)                                                             |
 
 ## Product Version
 | Version | CPU | NPU | VPU | ISP | HiFi4 |
@@ -91,11 +96,12 @@ extreme temperature conditions.
 |-----------------------------|---------------------|
 | DEBIX Fanless Aluminum Enclosure | EMC-7090B Model A/B|
 | I/O Board                  | EMB-AS-E01         |
-| 4G Board                   | EMB-AS-05          |
-| LoRa Board                 | EMB-AS-03          |
-| SBC POE Board              | EMB-AS-06          |
+| LoRa Board                  | EMB-AS-03           |
+| 4G Board                    | EMB-AS-05           |
+| SBC POE Board               | EMB-AS-06           |
+| MIPI-to-HDMI Board          | EMB-AS-16           |
 | DEBIX Camera Modules       | Camera 200A; Camera 500A; Camera 1300A    |
-| DEBIX Display Screens      | DEBIX TD050A; DEBIX TD070A; DEBIX TD101A; DEBIX TD050H; DEBIX TD070H; DEBIX TD101H |
+| DEBIX Display Screen        | TD050A (LVDS); TD070A (LVDS); TD101A (LVDS); TD050H (HDMI); TD070H (HDMI); TD101H (HDMI); TD080B (MIPI DSI) |
 
 ## Safety Instructions and Warnings:
 **General:**
